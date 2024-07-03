@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .landingpage-bg {
+        @apply w-full h-[85vh] bg-[url('/images/bg-1.png')] bg-center bg-cover
+    }
+
+    .landingpage-c {
+        @apply w-full h-full bg-gradient-to-b from-[#fff0] to-[#fff] flex
+    }
+
+    .start-btn {
+        @apply mx-auto text-white bg-blue-500 mt-8 px-3.5 py-1 rounded hover:bg-blue-400 transition-all
+    }
+
+    .biodata-bg {
+        @apply bg-white p-4 flex flex-col
+    }
+
+    .biodata-c {
+        @apply w-full lg:max-w-screen-lg mx-auto
+    }
+
+    .title-1 {
+        @apply text-2xl font-semibold mb-4 text-center
+    }
+
+    .title-2 {
+        @apply text-xl font-semibold mb-4 text-center
+    }
+
+    .experiences-bg {
+        @apply bg-gray-100 p-4 flex flex-col
+    }
+
+    .experiences-c {
+        @apply w-full lg:max-w-screen-lg mx-auto
+    }
+
+    .projects-bg {
+        @apply bg-white p-4 flex flex-col
+    }
+
+    .projects-c {
+        @apply w-full lg:max-w-screen-lg mx-auto
+    }
+
+    .contact-bg {
+        @apply bg-gray-100 p-4 flex flex-col
+    }
+
+    .contact-c {
+        @apply w-full lg:max-w-screen-lg mx-auto
+    }
+}
